@@ -1,0 +1,10 @@
+{
+  "name": "credifair-root",
+  "private": true,
+  "version": "1.2.0",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend -- --port 3000",
+    "install": "npm install --prefix frontend",
+    "start": "npm run dev --prefix frontend -- --port 3000"
+  }
+}
