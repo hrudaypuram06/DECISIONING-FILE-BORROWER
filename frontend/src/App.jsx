@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { apiFetch as fetch } from './mockApi.js';
 import { 
   ShieldCheck, AlertTriangle, RefreshCw, FileText, CheckCircle, 
   XCircle, Cpu, Scale, Lock, Zap, Sliders, Users, Database, 
